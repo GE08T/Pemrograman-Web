@@ -8,12 +8,34 @@ body {
   background-color: #ddd;
   line-height: 1.65;
   padding-bottom: 1000px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .container-satu {
+  display: flex;
+  flex-direction: row;
   width: 800px;
   margin: 50px auto;
   background-color: #fff;
   padding: 20px;
   box-sizing: border-box;
+  box-shadow: gray 0px 5px 15px;
+}
+
+.sider-satu h3 {
+  width: 150px;
+}
+
+.sidebar-dua p{
+  width: 150px;
+}
+
+img {
+  margin-left: 120px;
+  width: 150px;
+  height: 150px;
+  vertical-align: middle;
 }
