@@ -1,0 +1,15 @@
+Computational Thinking : 
+
+Cara Melatih : http://bebras.or.id/
++ Problem Solving 
++ Analisis Data
++ Modeling & Simulasi
++ Programming : codewars.com,leetcode.com,hackerrank.com,codechef.com 
+
+CT kemampuan berpikir fundamental
+CT proses berpikir menuju solusi
+CT konseptual
+CT diterapkan di semua bidang
+CT itu literasi
+CT harus dilatih
+
