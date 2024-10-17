@@ -1,0 +1,52 @@
+How to be good at problem solving
+
+- Identify and undestand the nature of the problem 
+
+1 hour = 55 thinking about problem = 5 minutes solution
+
++ problem statement
+context, issue, why do i care?
+
+- Research and Refine the problem 
+
++ google it that problem
+understanding other code before using it as a starting solution point
++ research can this technology help me ?
++ how to use this technology
+
+- Pseudocode focus on logic without worrying about syntax
+
++ the main idea is to breakdown your logic into a code
++ try that api or tech before using it in ur code
+
+- Test-Driven Development (optional)
+
++ testing a critical feature where most of business depends on it
++ to understanding what test will be valueable for that feature
++ this important cause when ur 
+failing test -> optimize it -> write code that made you pass
+
+- Implementing a code
+
++ is about quickly get it done and pass all test
++ and getting ur prototype (done)
++ big problem is a collection of small steps 
+
+- Reflect on your code
+
++ when u're feel dead end just take a break for 15 minutes 
+
++ improve readability
++ add comments
++ remove duplication
++ optimize time/space complexity with the algorithms
++ add caching to reduce cloud computing cost
++ improve error handling 
++ easier to improve your code rather than write a perfect code
+
+-practice make perfect
+
++ it doesn't matter what is language you're using, but the matter is when you're solving a problem
++ practice repeat until the technique become intuitive
+
+tips : start naming thing is a way to increase code readability
