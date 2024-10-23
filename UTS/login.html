@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <section class="flex flex-col items-center justify-center h-screen gap-5">
+    <div class="flex flex-col justify-center w-full max-w-sm p-4 mx-auto align-middle border-2 rounded sm:p-6 md:p-8 border-zinc-900">
+      <h2 class="mb-10 text-4xl font-bold text-center">Login</h2>
+      <form method="post" action="loginProcess.php" class="space-y-5">
+          <div>
+            <label class="block mb-2 text-lg font-medium">Username</label>
+            <input type="text" name="username"  id="username" class="border-2 text-lg font-light text-gray-900 rounded block w-full p-1.5 ">
+            <!-- <span class="text-sm font-bold text-red-500" id="usernameError"></span> -->
+          </div>
+          <div>
+            <label class="block mb-2 text-lg font-medium">Password</label>
+            <input type="password" name="password"  id="password" class="border-2 text-lg font-light text-gray-900 rounded block w-full p-1.5 ">
+            <!-- <span class="text-sm font-bold text-red-500" id="passwordError"></span> -->
+          </div>
+        <button type="submit" id="loginForm" class="w-full px-5 py-2 text-lg text-center text-white rounded bg-zinc-700 hover:bg-zinc-800 focus:ring-4 focus:outline-none focus:ring-zinc-300">Submit</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
