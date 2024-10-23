@@ -32,5 +32,4 @@ foreach ($_SESSION['films'] as $index => $film) {
 }
 
 echo $output;
-session_destroy();
 ?>
