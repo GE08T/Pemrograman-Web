@@ -12,7 +12,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-  <?php include("./layout/navAdmin.php") ?>
+  <?php include("navAdmin.php") ?>
 
   <section class="flex flex-col items-center w-full my-10 space-y-5 justify-evenly h-dvh" id="crudfilm">
     <div class="flex flex-col justify-center w-full max-w-xl p-2 mx-auto align-middle border-2 rounded sm:p-4 md:p-6 border-zinc-900">
